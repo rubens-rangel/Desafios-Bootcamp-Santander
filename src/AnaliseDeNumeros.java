@@ -4,13 +4,10 @@ import java.io.IOException;
 import java.util.StringTokenizer;
 
 
-public class Main {
-	
+public class AnaliseDeNumeros {
     public static void main(String[] args) throws IOException{
         
 
-int contador = 0;
-int contador2 = 0;
 int par = 0;
 int impar = 0;
 int positivo = 0;
@@ -25,7 +22,6 @@ BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
           else if (a % 1 == 0){impar++;}
            if (a > 0){positivo++;}
            if (a < 0){negativo++;}
-           contador2++;
             }
        
            System.out.println( par + " valor(es) par(es)");

@@ -1,7 +1,7 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class NotasFinais {
+public class Media3 {
   public static void main(String[] args) throws IOException {
   
     double n1,n2,n3,n4,media,emexame;

@@ -16,7 +16,7 @@ public class DesafioFolhaPagamento {
     st = new StringTokenizer(br.readLine());
     double valor3 = Double.parseDouble(st.nextToken());
 
-    double salary = valor2 * valor3; // Altere o valor da variável com o cálculo esperado
+    double salary = valor2 * valor3;
     System.out.println("NUMBER = " + valor1);
     System.out.printf("SALARY = U$ %.2f", salary);
   }

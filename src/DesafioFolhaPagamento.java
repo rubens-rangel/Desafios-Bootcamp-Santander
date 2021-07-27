@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.StringTokenizer;
 
 
-public class MinhaPrimeiraClasse {
+public class DesafioFolhaPagamento {
   public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     StringTokenizer st = new StringTokenizer(br.readLine());
